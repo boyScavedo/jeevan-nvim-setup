@@ -23,6 +23,6 @@ git clone https://github.com/boyScavedo/jeevan-nvim-setup.git %LOCALAPPDATA%\nvi
 - LuaSnip will show build failed but we can ignore that part.
 - close the neovim using `:q` and open it again using `nvim`.
 - you will be greeted by the greeter.
-- <SPACE> is my leader key. so press it to see my main keybinds.
+- `<SPACE>` is my leader key. so press it to see my main keybinds.
 - open nvim-tree using `<SPACE>ee` and navigate to `lua\jeevan\core\keymaps.lua` to check my core keybinds.
 - some keybinds might show errors at first execution but close the error and redo the keybind and the problem will fix itself.
