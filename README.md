@@ -11,15 +11,18 @@ choco install ripgrep
 ```
 - install [git](https://git-scm.com/downloads) for cloning the setup
 # Setting up
-- make sure you back up your old config files from `AppData/Local/nvim` & `AppData/Local/nvim-data` and remove those folders from your appdata and open
+- make sure you back up your old config files from `AppData/Local/nvim` & `AppData/Local/nvim-data` and remove those folders from your appdata
+- run the following code in the terminal
 ```
 git clone https://github.com/boyScavedo/jeevan-nvim-setup.git %LOCALAPPDATA%\nvim
 
 ```
-- run neovim using `nvim`
+- use `cd %LOCALAPPDATA%\nvim` to move inside the nvim directory. 
+- run neovim using `nvim`.
 - lazy plugin manager will download all the files.
-- LuaSnip will show error as there is no 'make' but we can ignore that part.
+- LuaSnip will show build failed but we can ignore that part.
 - close the neovim using `:q` and open it again using `nvim`.
 - you will be greeted by the greeter.
-- <SPACE> is my leader key. so press it to see all the possible keybinds.
+- <SPACE> is my leader key. so press it to see my main keybinds.
+- open `lua\jeevan\core\keymaps.lua` to check my core keybinds.
 - some keybinds might show errors at first but close the error and redo the keybind and it will fix itself.
