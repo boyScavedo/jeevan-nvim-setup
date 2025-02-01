@@ -1,2 +1,25 @@
-# jeevan-nvim-setup
-Personal neovim setup
+DISCLAIMER: This is for windows only
+# Introduction
+This is a nvim configuration that I am using right now which you can also clone and use for yourself. I took inspiration from Josean Martinez's hour and half nvim setup tutorial. You can check out how the plugins work there. All the themes are the ones from there.
+# Pre-requisite
+- install [neovim](https://neovim.io/)
+- install any [nerdfont](https://www.nerdfonts.com/) and set it as terminal font
+- install [node.js](https://nodejs.org/en/download) for Mason & Chocolatey
+- install ripgrep using Chocolatey
+```
+choco install ripgrep
+```
+- install [git](https://git-scm.com/downloads) for cloning the setup
+# Setting up
+- make sure you back up your old config files from `AppData/Local/nvim` & `AppData/Local/nvim-data` and remove those folders from your appdata and open
+```
+git clone https://github.com/boyScavedo/jeevan-nvim-setup.git %LOCALAPPDATA%\nvim
+
+```
+- run neovim using `nvim`
+- lazy plugin manager will download all the files.
+- LuaSnip will show error as there is no 'make' but we can ignore that part.
+- close the neovim using `:q` and open it again using `nvim`.
+- you will be greeted by the greeter.
+- <SPACE> is my leader key. so press it to see all the possible keybinds.
+- some keybinds might show errors at first but close the error and redo the keybind and it will fix itself.
